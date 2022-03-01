@@ -78,7 +78,7 @@ Fig 5. Schmitt trigger circuit
 
 ### Overall circuit
 
-All the above designed blocks current generator, current mirror, delay cell, brown-out detector and Schmitt trigger are combined together and the required design is implemented as follow.
+All the above designed blocks - current generator, current mirror, delay cell, brown-out detector and Schmitt trigger are combined together and the required design is implemented as follow.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/59077160/156046407-486ba96c-b5f8-438c-b0cd-9126bc176ed1.jpg">
