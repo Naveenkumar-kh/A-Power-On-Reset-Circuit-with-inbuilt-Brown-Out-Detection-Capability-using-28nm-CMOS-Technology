@@ -67,7 +67,7 @@ Fig 4. BOR circuit
 
 ### Schmitt Trigger Circuit
 
-The generated POR and BOR pulses are given to a CMOS based Schmitt trigger which generates a clean reset pulse without any toggling conditions during transistion, as the Schmitt trigger has hysteresis property. The upper and lower set voltages of the Schmitt trigger is set in a way that the reset is generated only when the internally generated toggle pulse reaches certain high value and goes low only after reaching certain low limit. In this design these voltages are set at 0.9 and 0.6 volts respectively.
+The generated POR and BOR pulses are given to a CMOS based Schmitt trigger which generates a clean reset pulse without any toggling condition during transitions, as the Schmitt trigger has hysteresis property. The upper and lower set voltages of the Schmitt trigger is set in a way that the reset is generated only when the internally generated toggle pulse reaches certain high value and goes low only after reaching certain low limit. In this design these voltages are set at 0.9 and 0.6 volts respectively.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/59077160/156045749-77a48a02-05ae-4a4c-bdd9-624ce9129e37.jpg">
