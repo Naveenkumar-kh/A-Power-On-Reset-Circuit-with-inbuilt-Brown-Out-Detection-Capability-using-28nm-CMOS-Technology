@@ -42,7 +42,7 @@ For getting the device internal parameters µn, Cox and approximate Vth of the 2
 
 ### Power-On Reset Circuit
 
-The power-on reset circuit consists of current generator, current mirror and a delay cell. Once the supply voltage reaches turn ON voltage of the current generator M26-M2, it starts generating the reference current for the cascaded current mirror stages. The three stages of current mirrors M26-M3, M28-M29, M30-31 are sized such that the last stage charges the capacitor C46 of the delay cell with nano-ampere range current. The current through M31 and the capacitor C46 decide the pulse with of the POR signal.
+The power-on reset circuit consists of current generator, current mirror and a delay cell. Once the supply voltage reaches turn ON voltage of the current generator M26-M2, it starts generating the reference current for the cascaded current mirror stages. The three stages of current mirrors M26-M3, M28-M29, M30-31 are sized such that the last stage charges the capacitor C46 of the delay cell with nano-ampere range current. The current through M31 and the capacitor C46 decide the pulse width of the POR signal.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/59077160/156036821-b3729fc0-4591-48e8-9cdb-22e06c08dacb.jpg">
